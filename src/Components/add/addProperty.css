@@ -1,0 +1,58 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.error-msg{
+    color: rgb(255, 0, 0);
+    font-size: small;
+    text-transform: none;
+  }
+ .addbtn
+  {
+    background-color: #0099FF;
+    width : 400px;
+    height : 30px;
+    margin-left: 20%;
+    font-size: 20;
+    color: white;
+  }
+ input{
+    width : 400px;
+    height : 25px;
+    border-radius: 5px;
+    margin-left: 20%;
+  }
+ label{
+    color: white;
+    font-size: large;
+    margin-left: 20%;
+  }
+ .addpropertyform
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 737px;;
+    background: #0999dc5b;
+    text-align: justify;
+  }
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+.addheader {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/background.jpg");
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+}

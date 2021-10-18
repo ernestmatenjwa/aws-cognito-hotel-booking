@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-awscognitohotelbooki-dev-05629-authRole",
+            "UnauthRoleArn": "arn:aws:iam::560474932961:role/amplify-awscognitohotelbooki-dev-05629-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::560474932961:role/amplify-awscognitohotelbooki-dev-05629-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-awscognitohotelbooki-dev-05629-deployment",
+            "UnauthRoleName": "amplify-awscognitohotelbooki-dev-05629-unauthRole",
+            "StackName": "amplify-awscognitohotelbooki-dev-05629",
+            "StackId": "arn:aws:cloudformation:us-east-1:560474932961:stack/amplify-awscognitohotelbooki-dev-05629/ab7b9c60-1d8a-11ec-bf31-0ebf8c9e23e3",
+            "AmplifyAppId": "d1dn3o3dzl4vbl"
+        },
+        "categories": {
+            "auth": {
+                "awscognitohotelbooki24501669": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1dn3o3dzl4vbl",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

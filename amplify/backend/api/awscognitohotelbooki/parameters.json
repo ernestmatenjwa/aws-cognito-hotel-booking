@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "awscognitohotelbooki",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authawscognitohotelbooki24501669",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

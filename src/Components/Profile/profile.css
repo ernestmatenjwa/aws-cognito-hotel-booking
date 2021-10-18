@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+.leftp {
+  color: #f2fadd;
+  font-weight: 500;
+}
+.exp{
+  color: #979ea0c0;
+  font-weight: 700;
+}
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.btn{
+  color: white;
+}
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+ 
+}
+.min_head{
+  text-align:center;
+  color: #979ea0c0;
+}
+
+.resume .resume_left {
+  width: 280px;
+  background: #272d30;
+}
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+.content{
+  background-color: rgba(0, 0, 255, 0.486);
+  height: 1000px;
+}
+.resume .resume_left .regular {
+  color: #b1eaff;
+}
+
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+.resume .resume_right {
+  width: 720px;
+  background: #272d30;
+  padding: 25px;
+}
+.resume .resume_right .bold {
+  color: #57727c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
